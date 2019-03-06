@@ -9,13 +9,17 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+    <header>
+      <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+    </header>
     <div id="crystals"></div>
 
     <div id="current-number">Current Number: 0</div>
     <div id="wins-losses">
-      <div id="wins">wins: 0</div>
-      <div id="losses">losses: 0</div>
+      <div id="wins">wins:</div>
+      <div id="win-count">0</div>
+      <div id="losses">losses:</div>
+      <div id="loss-count">0</div>
       <button id="new-game">New Game</button>
     </div>
     <div id="instructions">
@@ -29,12 +33,14 @@
         click the New Game button to play again!
       </p>
     </div>
-
     <!-- javascript always goes at the bottom! -->
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
     ></script>
-    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/javascript/crystalgame.js"
+    ></script>
   </body>
 </html>
