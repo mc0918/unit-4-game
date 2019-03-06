@@ -1,4 +1,13 @@
+body {
+  text-align: center;
+}
+
 .crystal-image {
   width: 200px;
   height: 200px;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
 }
